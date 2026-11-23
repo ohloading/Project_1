@@ -1,0 +1,15 @@
+# Python 字节码与缓存
+__pycache__/
+*.py[cod]
+*.pyc
+
+# 构建与打包产物
+build/
+dist/
+*.spec
+*.exe
+
+# 虚拟环境
+.venv/
+venv/
+env/

@@ -1,0 +1,9 @@
+# 必需：GUI 框架与代码编辑器
+PyQt5>=5.15
+
+# 必需：QScintilla 提供 PyQt5.Qsci（语法高亮 + 自动缩进）
+# 若该包名安装失败，可尝试：pip install PyQt5-QScintilla
+QScintilla>=2.13
+
+# 可选：多语言执行器；未安装或未配置成功时自动降级到 subprocess
+coex
